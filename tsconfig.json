@@ -14,7 +14,17 @@
     "baseUrl": ".",
     "types": ["webpack-env"],
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "utils/*": ["src/utils/*"],
+      "comps/*": ["src/components/*"],
+      "views/*": ["src/views/*"],
+      "store/*": ["src/store/*"],
+      "router/*": ["src/router/*"],
+      "plugins/*": ["src/plugins/*"],
+      "hooks/*": ["src/hooks/*"],
+      "assets/*": ["src/assets/*"],
+      "styles/*": ["src/styles/*"],
+      "api/*": ["src/api/*"],
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },
